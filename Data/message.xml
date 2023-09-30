@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE conversation [
+	<!ELEMENT conversation (happy, sad, neutral)>
+	<!ELEMENT happy (message+)>
+	<!ELEMENT sad (message+)>
+	<!ELEMENT neutral (message+)>
+	<!ELEMENT message (#PCDATA)>
+]>
+<conversation>
+	<happy>
+		<message>Hey there! How's it going today?</message>
+		<message>Oh, I'm feeling fantastic! Just got some great news at work. How about you?</message>
+		<message>That's awesome to hear! I'm doing really well too. The weather is so nice today, and I had a delicious breakfast.</message>
+		<message>Nice! Sunshine and good food can really brighten your day. Anything exciting planned for the weekend?</message>
+		<message>Absolutely! I'm heading to the park with some friends for a picnic on Saturday. How about you?</message>
+		<message>Oh, that sounds like a blast! I'm going to visit my family and have a barbecue on Sunday. Can't wait to catch up with everyone.</message>
+		<message>Family time is the best! And BBQs are so much fun. Hey, have you seen that new comedy movie that everyone's talking about?</message>
+		<message>Not yet, but I heard it's hilarious! We should definitely go see it together sometime.</message>
+		<message>That sounds like a plan! Let's make it a date. Anyway, I'm so glad we had this happy chat. It's contagious!</message>
+		<message>Absolutely! Happy vibes all around. Looking forward to that movie date, my friend!</message>
+		<message>Hey there! How's your day going?</message>
+		<message>Hi! It's going great! I woke up feeling so happy and refreshed.</message>
+		<message>That's wonderful to hear! Anything special that's making you feel so happy today?</message>
+	</happy>
+
+
+
+	<sad>
+		<message>Hey, how are you feeling today?</message>
+		<message>Honestly, not great. I've been feeling really sad lately.</message>
+		<message>I'm sorry to hear that. Do you want to talk about what's been bothering you?</message>
+		<message>It's just been a tough few weeks, you know? Work has been really stressful, and some personal stuff is weighing on me.</message>
+		<message>I understand. Sometimes life can be overwhelming. Is there anything specific that's been on your mind that you'd like to share?</message>
+		<message>Well, it's mostly the feeling of being stuck. I thought I'd be further along in my career by now, and some recent setbacks have hit me hard.</message>
+		<message>I can imagine how frustrating that must be. It's completely normal to have ups and downs in life. Have you considered talking to someone about these feelings, maybe a therapist or a close friend?</message>
+		<message>Yeah, I've been thinking about it. I guess I just needed to vent a little today.</message>
+		<message>I'm glad you reached out. Remember, it's okay to seek help and support when you're going through a tough time. And I'm here for you too, whenever you want to talk or just share your thoughts.</message>
+		<message>Thank you, that means a lot to me. It helps to have someone to talk to.</message>
+		<message>Of course, anytime. We all have our sad days, but I'm here to listen and support you through them.</message>
+		<message>Thanks again, it means the world to me.</message>
+		<message>Hi there, how have you been feeling lately?</message>
+		<message>Honestly, not so great. I've been pretty sad lately.</message>
+		<message>I'm really sorry to hear that. Would you like to talk about what's been bothering you?</message>
+		<message>Thanks for asking. It's just been a lot of things piling up – work stress, some personal challenges, and just a general feeling of emptiness.</message>
+		<message>I can imagine how tough that must be. It's okay to have these moments, you know. Life can be really challenging.</message>
+		<message>Yeah, it just feels like a never-ending cycle sometimes. And it's hard to see a way out of it.</message>
+		<message>I understand. Sometimes it helps to take things one step at a time. Is there anything in particular that's been weighing on you the most?</message>
+		<message>Well, I've been having trouble sleeping lately, and that just makes everything else even harder to handle.</message>
+		<message>Sleep troubles can definitely take a toll on your overall well-being. Have you considered talking to a professional about it or trying relaxation techniques?</message>
+		<message>I've been thinking about it, but I guess I just needed someone to talk to today. Thanks for listening.</message>
+		<message>Of course, I'm here for you. Remember, you don't have to go through this alone. Whenever you're ready, seeking help is a good step forward. And until then, feel free to reach out whenever you want to talk or share your thoughts.</message>
+		<message>Thanks, I appreciate your support. It means a lot to me.</message>
+	</sad>
+
+	<neutral>
+		<message>Hi there, how's your day been so far?</message>
+		<message>Oh, it's been alright, nothing too exciting. How about yours?</message>
+		<message>Same here, just the usual routine. Anything interesting happening lately?</message>
+		<message>Not really, just work and chores. How about you?</message>
+		<message>Same here, nothing out of the ordinary. It's funny how some days just blend together.</message>
+		<message>It is. But sometimes, these neutral days can be a nice break from the chaos.</message>
+		<message>True, it's like a little pause button for life. So, any plans for the evening?</message>
+		<message>Probably just relax and watch some TV. How about you?</message>
+		<message>Sounds like a plan. A little bit of relaxation is always good. Let's enjoy the simple moments, right?</message>
+		<message>Absolutely, you can find beauty in the ordinary too.</message>
+		<message>Hey, how's everything going on your end?</message>
+		<message>Oh, you know, just another typical day. Nothing too exciting.</message>
+		<message>Yeah, I hear you. It's been pretty average on my end too. Anything interesting on your mind lately?</message>
+		<message>Not really, just the usual routine. How about you?</message>
+		<message>Same here, nothing out of the ordinary. It's funny how some days just blend together.</message>
+		<message>It is. But sometimes, these neutral days can be a nice break from the chaos.</message>
+		<message>True, it's like a little pause button for life. So, any plans for the evening?</message>
+		<message>Probably just relax and watch some TV. How about you?</message>
+		<message>Sounds like a plan. A little bit of relaxation is always good. Let's enjoy the simple moments, right?</message>
+		<message>Absolutely, you can find beauty in the ordinary too.</message>
+	</neutral>
+
+</conversation>
+
